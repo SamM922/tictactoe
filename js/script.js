@@ -1,6 +1,14 @@
 /*global $*/
+let isPlayerOne = true;
+$("button").click(function(event) {
+    $('#'+this.id).hide();
+    isPlayerOne = !isPlayerOne;
+});
+
+
+
 $("#button1").click( function() {
-    performLogic("#button2","#tile2");
+    performLogic("#button1","#tile1");
 });
 
 $("#button2").click( function() {
