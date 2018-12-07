@@ -5,14 +5,7 @@
 }
 
 .tile {
-    width:23%;
-    padding:5%;
-}
-
-.right {
-    border-right: 1px solid black;
-}
-
-.bottom {
-    border-bottom: 1px solid black;
+    width: 23%;
+    padding: 5%;
+    border: 1px solid black;
 }
