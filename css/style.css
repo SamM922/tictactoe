@@ -1,11 +1,24 @@
 .container {
-    width:50%;
+    width:100%;
     display:flex;
     flex-wrap:wrap;
 }
-
 .tile {
     width: 23%;
     padding: 5%;
     border: 1px solid black;
+}
+body {
+    font-family: 'Finger Paint', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+button {
+    height: 25px;
+    width: 50px;
+    color: green;
+    font-family: 'Finger Paint', cursive;
+}
+h1 {
+    font-size: 20px;
 }
